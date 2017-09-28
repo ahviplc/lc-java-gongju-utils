@@ -96,5 +96,6 @@ public class MD5Util {
         System.out.println("加密的：" + convertMD5(s));
         System.out.println("解密的：" + convertMD5(convertMD5(s)));
         System.out.println(md5("13917114404"));
+        System.out.println(md5("LC"));
     }
 }
